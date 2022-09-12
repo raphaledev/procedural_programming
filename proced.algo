@@ -1,6 +1,6 @@
 PROCEDURE dot_product(v1 : ARRAY_OF_INTEGER, v2 : ARRAY_OF_INTEGER)
 VAR
-    i, n : INTEGER;
+    i: INTEGER;
 BEGIN
     FOR i FROM O TO v1.length-1 STEP 1 DO
         ps += v1[i]*v2[i]
